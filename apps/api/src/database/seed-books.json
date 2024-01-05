@@ -1,0 +1,322 @@
+[
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "year": "1965",
+    "cover": "https://books.google.com.mx/books/content?id=2ClNyY6oG84C&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1t2F0M3-wkeLYHK3POZGJPlLr_3Q&w=1280",
+    "description": "A science fiction novel set in the distant future",
+    "categories": "science fiction"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "year": "1979",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404613595i/13.jpg",
+    "description": "A comedic science fiction series",
+    "categories": "science fiction, humor"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year": "1949",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
+    "description": "A dystopian novel set in a totalitarian society",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": "1932",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1575509280i/5129.jpg",
+    "description": "A dystopian novel exploring a future society",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "year": "1969",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581854848l/51323334.jpg",
+    "description": "A satirical novel about the experiences of a soldier",
+    "categories": "science fiction"
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "year": "2011",
+    "cover": "https://example.com/the-martian.jpg",
+    "description": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1457315927i/29158347.jpg",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "year": "2011",
+    "cover": "https://example.com/ready-player-one.jpg",
+    "description": "A dystopian novel set in a virtual reality world",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "year": "1984",
+    "cover": "https://example.com/neuromancer.jpg",
+    "description": "A cyberpunk novel set in a future world",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "year": "1992",
+    "cover": "https://example.com/snow-crash.jpg",
+    "description": "A science fiction novel blending virtual reality and ancient Sumerian history",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Ender's Game",
+    "author": "Orson Scott Card",
+    "year": "1985",
+    "cover": "https://example.com/enders-game.jpg",
+    "description": "A military science fiction novel about a child prodigy",
+    "categories": "science fiction"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": "1988",
+    "cover": "https://example.com/the-alchemist.jpg",
+    "description": "A philosophical novel about a young Andalusian shepherd",
+    "categories": "personal growth"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": "2018",
+    "cover": "https://example.com/atomic-habits.jpg",
+    "description": "A self-help book about the importance of small habits",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "year": "1997",
+    "cover": "https://example.com/the-power-of-now.jpg",
+    "description": "A spiritual guide to living in the present moment",
+    "categories": "personal growth"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": "2011",
+    "cover": "https://example.com/thinking-fast-and-slow.jpg",
+    "description": "A book about the two systems that drive the way we think",
+    "categories": "personal growth"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year": "2011",
+    "cover": "https://example.com/sapiens.jpg",
+    "description": "A book exploring the history and impact of Homo sapiens",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "year": "1989",
+    "cover": "https://example.com/7-habits.jpg",
+    "description": "A self-help book about personal and professional effectiveness",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The Four Agreements",
+    "author": "Don Miguel Ruiz",
+    "year": "1997",
+    "cover": "https://example.com/four-agreements.jpg",
+    "description": "A guide to personal freedom and self-discovery",
+    "categories": "personal growth"
+  },
+  {
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "year": "1946",
+    "cover": "https://example.com/mans-search-for-meaning.jpg",
+    "description": "A psychological memoir about surviving the Holocaust",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The Code Book",
+    "author": "Simon Singh",
+    "year": "1999",
+    "cover": "https://example.com/the-code-book.jpg",
+    "description": "A history of cryptography and its impact on society",
+    "categories": "programming"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": "2008",
+    "cover": "https://example.com/clean-code.jpg",
+    "description": "A guide to writing clean and maintainable code",
+    "categories": "programming"
+  },
+  {
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "year": "2008",
+    "cover": "https://example.com/cracking-the-coding-interview.jpg",
+    "description": "A comprehensive guide to technical interview preparation",
+    "categories": "programming"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "year": "1999",
+    "cover": "https://example.com/the-pragmatic-programmer.jpg",
+    "description": "A guide to becoming a more efficient and effective programmer",
+    "categories": "programming"
+  },
+  {
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "year": "1994",
+    "cover": "https://example.com/design-patterns.jpg",
+    "description": "A classic book on software design patterns",
+    "categories": "programming"
+  },
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "year": "2008",
+    "cover": "https://example.com/javascript-the-good-parts.jpg",
+    "description": "A guide to the best parts of the JavaScript programming language",
+    "categories": "programming"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "year": "2015",
+    "cover": "https://example.com/python-crash-course.jpg",
+    "description": "A hands-on introduction to Python programming",
+    "categories": "programming"
+  },
+  {
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan, Dennis M. Ritchie",
+    "year": "1978",
+    "cover": "https://example.com/the-c-programming-language.jpg",
+    "description": "A classic book on the C programming language",
+    "categories": "programming"
+  },
+  {
+    "title": "Clean Architecture",
+    "author": "Robert C. Martin",
+    "year": "2017",
+    "cover": "https://example.com/clean-architecture.jpg",
+    "description": "A guide to designing modular and maintainable software systems",
+    "categories": "programming"
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "year": "2011",
+    "cover": "https://example.com/the-lean-startup.jpg",
+    "description": "A book on applying lean principles to startups and product development",
+    "categories": "programming"
+  },
+  {
+    "title": "Inception",
+    "author": "Christopher Nolan",
+    "year": "2010",
+    "cover": "https://example.com/inception.jpg",
+    "description": "A science fiction film about dream manipulation",
+    "categories": "science fiction"
+  },
+  {
+    "title": "The Matrix",
+    "author": "Lana Wachowski, Lilly Wachowski",
+    "year": "1999",
+    "cover": "https://example.com/the-matrix.jpg",
+    "description": "A science fiction film exploring the nature of reality",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Blade Runner",
+    "author": "Ridley Scott",
+    "year": "1982",
+    "cover": "https://example.com/blade-runner.jpg",
+    "description": "A neo-noir science fiction film based on the novel 'Do Androids Dream of Electric Sheep?'",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Interstellar",
+    "author": "Christopher Nolan",
+    "year": "2014",
+    "cover": "https://example.com/interstellar.jpg",
+    "description": "A science fiction film about a team of astronauts searching for a new habitable planet",
+    "categories": "science fiction"
+  },
+  {
+    "title": "The Social Network",
+    "author": "David Fincher",
+    "year": "2010",
+    "cover": "https://example.com/the-social-network.jpg",
+    "description": "A biographical drama film about the founding of Facebook",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The Pursuit of Happyness",
+    "author": "Gabriele Muccino",
+    "year": "2006",
+    "cover": "https://example.com/the-pursuit-of-happyness.jpg",
+    "description": "A biographical drama film about a homeless man who becomes a successful stockbroker",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "author": "Frank Darabont",
+    "year": "1994",
+    "cover": "https://example.com/the-shawshank-redemption.jpg",
+    "description": "A drama film about a man's escape from prison and his journey of redemption",
+    "categories": "personal growth"
+  },
+  {
+    "title": "The Imitation Game",
+    "author": "Morten Tyldum",
+    "year": "2014",
+    "cover": "https://example.com/the-imitation-game.jpg",
+    "description": "A historical drama film about the life of mathematician and codebreaker Alan Turing",
+    "categories": "programming"
+  },
+  {
+    "title": "The Social Dilemma",
+    "author": "Jeff Orlowski",
+    "year": "2020",
+    "cover": "https://example.com/the-social-dilemma.jpg",
+    "description": "A documentary exploring the impact of social media on society",
+    "categories": "programming"
+  },
+  {
+    "title": "Black Mirror",
+    "author": "Charlie Brooker",
+    "year": "2011",
+    "cover": "https://example.com/black-mirror.jpg",
+    "description": "A science fiction anthology series exploring the dark side of technology",
+    "categories": "science fiction"
+  },
+  {
+    "title": "Mr. Robot",
+    "author": "Sam Esmail",
+    "year": "2015",
+    "cover": "https://example.com/mr-robot.jpg",
+    "description": "A psychological thriller series about a hacker and cybersecurity engineer",
+    "categories": "programming"
+  },
+  {
+    "title": "The Big Bang Theory",
+    "author": "Chuck Lorre, Bill Prady",
+    "year": "2007",
+    "cover": "https://example.com/the-big-bang-theory.jpg",
+    "description": "A sitcom about a group of socially awkward physicists",
+    "categories": "programming"
+  }
+]

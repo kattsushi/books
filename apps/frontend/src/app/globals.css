@@ -1,0 +1,16 @@
+@layer reset, base, tokens, recipes, utilities;
+
+.sun {
+  fill: black;
+}
+.moon {
+  stroke: transparent;
+}
+
+:global(.dark) .sun {
+  fill: transparent;
+  stroke: transparent;
+}
+:global(.dark) .moon {
+  stroke: white;
+}

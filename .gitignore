@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+styled-system/
+.nx/
+.DS_Store
+.env
