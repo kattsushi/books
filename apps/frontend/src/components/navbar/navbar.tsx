@@ -9,7 +9,7 @@ import { button } from "styled-system/recipes";
 
 export function Navbar(props: any) {
   return (
-    <Box divideY="1px" {...props}>
+    <Box divideY="1px" {...props} bg={'black.800'}>
       <Container>
         <HStack justify="space-between" py="3" gap="8">
           <a href="/" aria-label="Go to start page">

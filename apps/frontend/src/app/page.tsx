@@ -1,11 +1,16 @@
 import { Book, BookModel } from '~/components/book/book'
 
 import { css } from 'styled-system/css'
-import { promises as fs } from 'fs';
+
+const getData = async () => {
+  // fetch
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BOOKS_API_URL}/books`);
+  const data = await res.json();
+  return data;
+};
 
 export default async function Home() {
-  const file = await fs.readFile(process.cwd() + '/src/data/books.json', 'utf8');
-  const data = await JSON.parse(file);
+  const data = await getData();
   return (
     <main>
       <div className={css({

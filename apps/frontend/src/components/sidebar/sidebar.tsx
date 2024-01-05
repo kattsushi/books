@@ -2,11 +2,16 @@ import { BookModel } from "../book/book";
 import { SidebarGroup } from "./sidebar.group";
 import { Stack } from "styled-system/jsx";
 import { Text } from '~/components/ui/text'
-import { promises as fs } from 'fs';
+
+const getData = async () => {
+  // fetch
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BOOKS_API_URL}/books`);
+  const data = await res.json();
+  return data;
+};
 
 export async function Sidebar() {
-  const file = await fs.readFile(process.cwd() + '/src/data/books.json', 'utf8');
-  const data = await JSON.parse(file) as BookModel[];
+  const data = await getData();
   let categories: any[] = []
   data.forEach((book: BookModel) => {
     const bookCategories = book.categories.split(',').map((category) => category.trim());
