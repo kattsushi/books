@@ -100,16 +100,26 @@ export function BookList() {
   };
 
   const getData = async () => {
-    // fetch
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BOOKS_API_URL}/books`, {
-      cache: "no-cache",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const data = await res.json();
-    setData(data);
+    setIsLoading(true)
+    try {
+      // fetch
+      const res = await fetch(`${process.env.NEXT_PUBLIC_BOOKS_API_URL}/books`, {
+        cache: "no-cache",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await res.json();
+      setIsLoading(false)
+      setData(data);
+    } catch (error) {
+      setIsLoading(false)
+      console.error(error);
+      toast.error({ title: 'Error ', description: 'Error Fetching Books' })
+    }
   };
+
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     getData();
@@ -140,6 +150,7 @@ export function BookList() {
             book={book}
           />
         ))}
+        {isLoading && <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>}
       </div>
 
       <BookForm handleCreated={(book) => handleCreated(book)}>
