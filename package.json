@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:api": "pnpx nx dev api",
+    "start:api": "pnpx nx start api",
     "start:web": "pnpx nx dev frontend",
     "build:api": "pnpx nx build api",
     "build:web": "pnpx nx build frontend"
