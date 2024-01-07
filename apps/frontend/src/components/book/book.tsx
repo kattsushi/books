@@ -11,7 +11,7 @@ import type { CardProps } from '~/components/ui/card'
 import { IconButton } from '~/components/ui/icon-button'
 
 export type BookModel = {
-  id: number
+  id?: number
   title: string
   status: string
   description: string

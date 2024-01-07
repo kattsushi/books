@@ -2,8 +2,8 @@
 
 import * as Dialog from "~/components/ui/dialog";
 
-import { Input as ValiInput, number, object, string } from "valibot";
-import { setValue, useForm, valiForm } from "@modular-forms/react";
+import { Input as ValiInput, number, object, optional, string } from "valibot";
+import { setValue, useForm } from "@modular-forms/react";
 
 import { Button } from "~/components/ui/button";
 import { FormLabel } from "~/components/ui/form-label";
@@ -15,7 +15,7 @@ import { css } from "styled-system/css";
 import { useState } from "react";
 
 const BookSchema = object({
-  id: number(),
+  id: optional(number()),
   title: string(),
   status: string(),
   description: string(),
@@ -42,11 +42,10 @@ export function BookForm({
   const [isOpen, setIsOpen] = useState(false);
   const [bookForm, { Form, Field }] = useForm<BookForm>({
     initialValues: book,
-    validate: valiForm(BookSchema),
-    validateOn: "submit"
   });
 
   const handleSubmit = async (data: BookForm) => {
+    console.log('data', data)
     if (book && handleUpdate) {
       handleUpdate(data);
       setIsOpen(false);

@@ -153,7 +153,7 @@ export function BookList() {
         {isLoading && <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>}
       </div>
 
-      <BookForm handleCreated={(book) => handleCreated(book)}>
+      <BookForm handleCreated={(bookCreated) => handleCreated(bookCreated)}>
         <IconButton
           size={"xl"}
           className={css({
