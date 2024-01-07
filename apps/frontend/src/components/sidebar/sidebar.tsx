@@ -1,4 +1,5 @@
 import { BookModel } from "../book/book";
+import { Favorites } from "./favorites";
 import { SidebarGroup } from "./sidebar.group";
 import { Stack } from "styled-system/jsx";
 import { Text } from '~/components/ui/text'
@@ -14,7 +15,7 @@ export async function Sidebar() {
   const data = await getData();
   let categories: any[] = []
   data.forEach((book: BookModel) => {
-    const bookCategories = book.categories.split(',').map((category) => category.trim());
+    const bookCategories = book.categories?.split(',').map((category) => category.trim()) || [];
     categories = [...categories, ...bookCategories];
   });
   categories = Array.from(new Set(categories)).map((category) => ({
@@ -31,6 +32,7 @@ export async function Sidebar() {
           </Text>
           <SidebarGroup items={categories} />
       </Stack>
+      <Favorites />
     </Stack>
   )
 }

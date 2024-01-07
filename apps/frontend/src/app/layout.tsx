@@ -28,8 +28,8 @@ export default function RootLayout({
         <header className={styles.header}>
           <Navbar borderBottomWidth="1px">
             <Box display={{ base: 'block', md: 'none' }}>
-              <Container py="1">
-                <HStack gap="2">
+              <Container>
+                <HStack gap="1">
                   <MobileSidebarContainer>
                     <Sidebar />
                   </MobileSidebarContainer>
@@ -43,7 +43,7 @@ export default function RootLayout({
         </nav>
         <main className={styles.main}>
           <slot name="hero" />
-          <Flex justify="space-between" py="12" position="relative">
+          <Flex justify="space-between" py="6" position="relative">
             <Container minWidth="0">
               <Stack gap="12">
                 {children}

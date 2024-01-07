@@ -13,4 +13,6 @@ export class Book {
   author: string
   @ApiProperty()
   categories: string
+  @ApiProperty()
+  status: 'in-stock' | 'out-of-stock'
 }

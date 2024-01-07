@@ -11,4 +11,6 @@ export class CreateBookDto {
   author: string
   @ApiProperty()
   categories: string
+  @ApiProperty()
+  status: 'in-stock' | 'out-of-stock'
 }
